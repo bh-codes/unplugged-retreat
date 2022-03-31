@@ -96,11 +96,21 @@ footer {
 	flex-flow: row wrap;
 }
 
+header {
+	padding: 15px 0;
+}
+
 header .content-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	margin: 0;
+	width: 100%;
+}
+
+header .header-divider {
+	width: 100%;
 }
 
 header nav {
@@ -108,18 +118,42 @@ header nav {
 	justify-content: space-around;
 	align-items: center;
 	flex-flow: row wrap;	
+	width: 60%;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: space-around;
+	width: 45%;
+	padding: 20px 0;
 }
 
-footer .contact {
+footer {
+	margin: 50px 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer h3 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+}
+
+footer .social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 50px 0;
 }
 
 footer .social-icons {
@@ -129,6 +163,12 @@ footer .social-icons {
 }
 
 footer. social-icons p {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer .copyright {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -144,34 +184,79 @@ footer. social-icons p {
 	flex-flow: row wrap;
 }
 
+.hero-area h1 {
+	padding: 55px 0 0 20px;
+}
+
 /* Aside */
 aside {
 	display: flex; 
 	justify-content: center;
-	align-items: center;;
+	align-items: center;
 	flex-flow: row wrap;
 }
 
+.form-description {
+	padding: 30px 0 0 20px;
+}
+
+.form h3 {
+	padding: 40px 0 0 20px;
+}
+
+.form input {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	margin-left: 20px;
+	width: 90%
+}
+
 /* Feature Styles */
-.features {
+.features .content-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding: 52px 0;
 }
+
+.features h2 {
+	padding: 50px 0 65px 20px;
+}
+
+.features article {
+	width: 55%;
+}
+
 .features-items {
 	display: flex; 
 	justify-content: center;
 	align-content:center;
 	flex-flow: row wrap;
+	text-align: center;
 }
 
 /* Reviews */
-.reviews {
+.reviews .content-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+}
+
+.reviews h2 {
+	padding: 55px 0 0 20px;
+}
+
+.reviews h3 {
+	padding: 20px 0 0 20px;
+}
+
+.reviews p {
+	padding: 25px 0 0 20px;
+	margin: 0;
 }
 
 /*================ ABOUT PAGE =================*/
@@ -182,6 +267,8 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding: 50px 0;
+	margin-left: 20px;
 }
 
 /* Contact */
@@ -190,6 +277,8 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding: 50px 0;
+	margin-left: 20px;
 }
 
 /*================ FAQ =================*/
@@ -198,13 +287,12 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	padding: 50px 0;
+	margin-left: 20px;
 }
 
 .faq .content-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
+
 }
 
 /* ==========================================================================
