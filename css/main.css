@@ -122,7 +122,7 @@ h2 {
 	color: #e2e3ed;
 }
 
-h3, 
+h3,
 h4 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.125em;
@@ -187,7 +187,7 @@ header nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	flex-flow: row wrap;	
+	flex-flow: row wrap;
 	width: 60%;
 }
 
@@ -266,7 +266,7 @@ footer .copyright {
 
 /* Aside */
 aside {
-	display: flex; 
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
@@ -283,7 +283,7 @@ aside {
 aside .form {
   margin-top: 30px;
 }
- 
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -291,7 +291,7 @@ input[type=text] {
   font-style: italic;
   padding: 1em;
 }
- 
+
 input[type=button] {
   width: 100%;
   padding: 20px 0;
@@ -324,7 +324,7 @@ input[type=button] {
 }
 
 .features-items {
-	display: flex; 
+	display: flex;
 	justify-content: center;
 	align-content:center;
 	flex-flow: row wrap;
@@ -532,9 +532,12 @@ aside .content-wrapper {
 
 }
 
-aside .content-wrapper .form-description,
+aside .content-wrapper .form-description {
+	width: 70%;
+}
+
 aside .content-wrapper .form {
-	width: 35%;
+	width: 80%;
 	margin: 0;
 }
 
@@ -622,7 +625,7 @@ footer .copyright {
 	justify-content: space-between;
 }
 
-.faq-content { 
+.faq-content {
 	flex-basis: 40%;
 }
 
@@ -730,4 +733,3 @@ footer .copyright {
     page-break-after: avoid;
   }
 }
-
