@@ -674,6 +674,22 @@ footer .copyright {
 	width:45%
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section .content-wrapper h2{
 	width: 80%;
 }
@@ -737,6 +753,22 @@ h3 {
  /*=== ABOUT ===*/
 .mission h2 {
 	width: 75%;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-content  {
