@@ -646,6 +646,10 @@ aside .content-wrapper .form {
   padding-bottom: 50px;
 }
 
+.reviews div {
+  display: flex;
+  align-items: center;
+}
 .reviews figure {
   width: 40%;
   padding-left: 0;
@@ -777,11 +781,17 @@ aside .content-wrapper {
   margin-bottom: 50px;
 }
 
-.reviews .content-wrapper {
-  justify-content: flex-start;
+.reviews div {
   align-items: flex-end;
 }
 
+.reviews figure {
+  width: 42%;
+}
+
+.reviews article {
+  width: 50%;
+}
 
  /*=== ABOUT ===*/
 .mission h2 {
@@ -806,6 +816,11 @@ aside .content-wrapper {
 
 .contact-content  {
 	width: 90%;
+}
+
+/*=== FAQ ===*/
+.faq .content-wrapper {
+  align-items: baseline;
 }
 
 }
